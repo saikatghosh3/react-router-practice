@@ -39,6 +39,22 @@ const RootLayout = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link
+                to="/details"
+                className="block px-4 py-2 rounded-md text-gray-700 hover:bg-blue-100 hover:text-blue-600 transition"
+              >
+                Details
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/details"
+                className="block px-4 py-2 rounded-md text-gray-700 hover:bg-blue-100 hover:text-blue-600 transition"
+              >
+                UserDetails
+              </Link>
+            </li>
           </ul>
         </nav>
       </aside>
